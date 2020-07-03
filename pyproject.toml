@@ -15,9 +15,9 @@ black = "^19.10b0"
 isort = "^4.3.21"
 ipython = "^7.16.1"
 
-[tool.black]
-line-length = 80
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
+[tool.black]
+line-length = 80
